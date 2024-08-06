@@ -31,6 +31,7 @@ const AuthForm = ({type}: { type: string }) => {
     const [user, setUser] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
 
+
     const formSchema = authFormSchema(type);
 
     // 1. Define your form.
