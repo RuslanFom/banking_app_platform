@@ -1,4 +1,5 @@
 import Image from "next/image"
+import React from "react";
 
 export default function RootLayout({
                                        children,
@@ -15,6 +16,7 @@ export default function RootLayout({
                         alt='Auth image'
                         width={500}
                         height={500}
+                        className="rounded-l-xl object-contain"
                     />
                 </div>
 
